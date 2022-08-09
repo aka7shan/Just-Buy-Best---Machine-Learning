@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Buy Best</title>
+</head>
+<body style="background-color: red;">
+    <div style="text-align:center">
+        <h1>JUST BUY BEST</h1>
+
+        <form action="{{url_for('predict')}}" method="post">
+            <p>Click below to get results:</p>
+            <button type="submit" class="btn">Predict</button>
+
+        </form>
+        <br>
+        <br>
+
+<!--        {{prediction_text}}-->
+        <h1>{{lhs0}} - {{rhs0}}</h1>
+        <br>
+        <h1>{{lhs1}} - {{rhs1}}</h1>
+        <br>
+        <h1>{{lhs2}} - {{rhs2}}</h1>
+         <br>
+        <h1>{{lhs3}} - {{rhs3}}</h1>
+        <br>
+        <h1>{{lhs4}} - {{rhs4}}</h1>
+         <br>
+        <h1>{{lhs5}} - {{rhs5}}</h1>
+        <br>
+        <h1>{{lhs6}} - {{rhs6}}</h1>
+         <br>
+        <h1>{{lhs7}} - {{rhs7}}</h1>
+        <br>
+        <h1>{{lhs8}} - {{rhs8}}</h1>
+    </div>
+</body>
+</html>
